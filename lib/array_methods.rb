@@ -15,7 +15,7 @@ end
 def using_reverse(array)
 
   sorted_array = Array.new
-  sorted_array = array.sort
+  sorted_array = array.reverse
   return sorted_array
 
 end
@@ -36,7 +36,7 @@ end
 
 def using_size(array)
 
-  size = array.size 
+  size = array.size
   return size
 
 end
